@@ -7,6 +7,6 @@ unset($_SESSION['username']);  //Is Used To Destroy Specified Session
 
 //w 3ayza lw a2dr azwd message
 if(session_destroy()) {
-      header("Location: wel.php");
+      header("Location: mainPage.php");
    }
    ?>
